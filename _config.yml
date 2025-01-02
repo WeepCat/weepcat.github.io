@@ -1,5 +1,5 @@
-title: 星合の空 # 站点标题
-description: Kan Wu's Personal Blog
+title: 流~泪~猫~猫~头 # 站点标题
+description: WeepCat's Personal Blog
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
@@ -9,29 +9,29 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         comments: # 留言页，请先修改这里，确保使用的是你自己的repo！参照<https://utteranc.es/>
           append: |
-            <script
-              repo="wu-kan/utterances-storage"
-              src="https://utteranc.es/client.js"
-              issue-term="url"
+            <script src="https://utteranc.es/client.js"
+              repo="weepcat/utterances-repo"
+              issue-term="pathname"
               theme="github-light"
               crossorigin="anonymous"
-              async="async"
-            ></script>
-        merger: # 打赏页，需要配置！
-          append_to_head:
-            - | # 需要配置的变量见<https://github.com/qr-merger/merger>
-              <script>
-                var myname = "Kan Wu";
-                var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
-                var usage = "donate";
-                var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
-                var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
-                var paypal = "https://paypal.me/wukan0621";
-                var multilingual = false;
-                var branding = false;
-                var title = "选择你的支付方式";
-                var subtitle = "跟随进一步的指示以向" + myname + "付款";
-              </script>
+              async="async">
+            </script>
+
+#        merger: # 打赏页，需要配置！
+#          append_to_head:
+#            - | # 需要配置的变量见<https://github.com/qr-merger/merger>
+#              <script>
+#                var myname = "Kan Wu";
+#                var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
+#                var usage = "donate";
+#                var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
+#                var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
+#                var paypal = "https://paypal.me/wukan0621";
+#                var multilingual = false;
+#                var branding = false;
+#                var title = "选择你的支付方式";
+#                var subtitle = "跟随进一步的指示以向" + myname + "付款";
+#              </script>
         default:
           html_lang: zh # <https://www.w3school.com.cn/tags/html_ref_language_codes.asp>
           color-mode: auto # <https://primer.style/css/storybook/?path=/docs/support-theming--docs>
@@ -47,22 +47,22 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /archive/
               - title: '标签 / Tags'
                 href: /tags/
-              - title: '捐赠 / Donate'
-                href: /merger/
-              - title: '简历 / Resume'
-                href: https://resume.wu-kan.cn/
+#              - title: '捐赠 / Donate'
+#                href: /merger/
+#              - title: '简历 / Resume'
+#                href: https://resume.wu-kan.cn/
               - title: 'GitHub'
-                href: https://github.com/wu-kan
-              - title: 'Bilibili'
-                href: https://space.bilibili.com/166390020
+                href: https://github.com/weepcat
+#              - title: 'Bilibili'
+#                href: https://space.bilibili.com/166390020
               - title: 'Zhihu'
-                href: https://www.zhihu.com/people/wukan0621
-              - title: 'Google Scholar'
-                href: https://scholar.google.com/citations?user=aU9P37UAAAAJ
-              - title: 'Vjudge'
-                href: https://vjudge.net/user/WuK
-              - title: 'jekyll-theme-WuK'
-                href: https://jekyll-theme-WuK.wu-kan.cn/
+                href: https://www.zhihu.com/people/xi-xi-xi-65-33-62
+#              - title: 'Google Scholar'
+#                href: https://scholar.google.com/citations?user=aU9P37UAAAAJ
+#              - title: 'Vjudge'
+#                href: https://vjudge.net/user/WuK
+#              - title: 'jekyll-theme-WuK'
+#                href: https://jekyll-theme-WuK.wu-kan.cn/
             footer: | # 页面统计
               <div>
                 <span id="busuanzi_container_site_pv">
@@ -79,7 +79,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 ></script>
               </div>
               <div>
-                (C) 2017-2024 wu-kan
+                (C) 2024-2025 WeepCat
               </div>
             jekyll-toc: # <https://github.com/allejo/jekyll-toc>
               enable: true
@@ -362,7 +362,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             </a>
             （除特别声明或转载文章外）
             <br/>
-            <a target="_blank" href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
+#            <a target="_blank" href="/merger/">如果这篇博客帮助到你，可以请我喝一杯咖啡~</a>
           related_posts:
             enable: true
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
